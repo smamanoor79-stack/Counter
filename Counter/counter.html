@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Project</title>
+    <link rel="stylesheet" href="counter.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Counter Project</h1>
+        <div class="counter-display" id="counterDisplay">0</div>
+        <div class="button-group">
+            <button class="btn-increase" onclick="increaseCounter()">+</button>
+            <button class="btn-decrease" onclick="decreaseCounter()">-</button>
+            <button class="btn-reset" onclick="resetCounter()">Reset</button>
+            <button class="btn-save" onclick="saveCounter()">Save</button>
+            <button class="btn-load" onclick="loadCounter()">Load</button>
+        </div>
+        <div class="message" id="message"></div>
+    </div>
+
+    <script src="counter.js"></script>
+</body>
+</html>
