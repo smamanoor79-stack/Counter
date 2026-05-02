@@ -27,9 +27,9 @@ Open `counter.html` in any modern browser. Keep `counter.css` and `counter.js` i
 ## File Structure
 
 ```
-├── counter.html   # Markup and layout
-├── counter.css    # Styles (external)
-└── counter.js     # Counter logic (external)
+├── index.html   # Markup and layout
+├── style.css    # Styles (external)
+└── script.js     # Counter logic (external)
 ```
 
 ## Browser Support
